@@ -33,7 +33,7 @@ jobs:
           cache-version: 0
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v3
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "$"
@@ -41,6 +41,19 @@ jobs:
           JEKYLL_ENV: production
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
+      - name: Clear dependencies cache
+        run: rm -rf ${{ github.workspace }}/_site
+      - name: Upload artifact
+        uses: actions/upload-artifact@a03c5d18b71bb45bfc6db27c81306fb2ea1610d6
+        with:
+          name: build-output
+          path: ./_site/
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+
     
   deploy:
     environment:
