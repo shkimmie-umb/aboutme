@@ -1,0 +1,201 @@
+{
+  "basics": {
+    "name": "SangHyuk Kim",
+    "label": "Machine Psychology Fellow",
+    "image": "",
+    "email": "sanghyuk.kim001@umb.edu",
+    "phone": "",
+    "url": "https://shkimmie-umb.github.io/aboutme/",
+    "summary": "A Ph.D. student at the University of Massachusetts Boston, specializing in medical imaging and machine learning with over 4 years of experience in software engineering and interdisciplinary research.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Boston",
+      "countryCode": "US",
+      "region": "Massachusetts"
+    },
+    "profiles": [
+      {
+        "network": "Google Scholar",
+        "username": "SangHyukKim",
+        "url": "https://scholar.google.com/citations?user=a-Jr59UAAAAJ&hl=en"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "SangHyukKim",
+        "url": "https://www.linkedin.com/in/sang-hyuk-kim-469687182/"
+      },
+      {
+        "network": "GitHub",
+        "username": "SangHyukGitHub",
+        "url": "https://github.com/shkimmie-umb?tab=repositories"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Machine Psychology Lab, University of Massachusetts Boston",
+      "position": "Teaching/Research Assistant",
+      "url": "https://mpsych.org",
+      "startDate": "2023-09-01",
+      "endDate": "",
+      "summary": "Conducting Ph.D. research in machine learning and medical imaging, focusing on uncertainty quantification and diagnostic reliability.",
+      "highlights": [
+        "Developed machine learning pipelines with 97.8% accuracy, reducing melanoma misdiagnoses by 40.5%.",
+        "Teaching assistant for courses like C++, DBMS, Discrete Mathematics, and Theory of Computing.",
+        "Authored a publication nominated for speaker presentation at IEEE ISBI 2025."
+      ]
+    },
+    {
+      "name": "Stanford Research Institute (SRI) International",
+      "position": "Research Intern at NuSCI Research Group",
+      "url": "https://nusci.csl.sri.com/author/sanghyuk-kim/",
+      "startDate": "2024-05-01",
+      "endDate": "2024-12-01",
+      "summary": "Contributed to the SANSA project, focusing on reliable AI for healthcare applications.",
+      "highlights": [
+        "Enhanced melanoma detection by reducing misdiagnoses by 40.5% using uncertainty quantification.",
+        "Developed a Python package achieving a 97% detection rate in melanoma detection, presented at IEEE ISBI 2025.",
+        "Extended internship offer based on exceptional contributions."
+      ]
+    },
+    {
+      "name": "TmaxOS",
+      "position": "Software Engineer",
+      "url": "https://tmaxsoft.com",
+      "startDate": "2017-02-01",
+      "endDate": "2021-04-01",
+      "summary": "Fulfilled military service as a software developer with projects in kernel-level programming and smart factory solutions.",
+      "highlights": [
+        "Developed a graphics kernel to enable native execution of Windows applications on Ubuntu.",
+        "Led smart factory planning for automated manufacturing",
+        "Created a production-ready database system and web applications for enterprise decision-making."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Massachusetts Boston",
+      "location": "Boston, MA, USA",
+      "url": "https://www.umb.edu/",
+      "area": "Computer Science",
+      "studyType": "Ph.D.",
+      "startDate": "2023-09-01",
+      "endDate": "",
+      "score": "",
+      "courses": [],
+      "summary": "Published at a major medical conference in my first year of studies and received recognition for outstanding research contributions."
+    },
+    {
+      "institution": "Yonsei University",
+      "location": "Seoul, South Korea",
+      "url": "https://www.yonsei.ac.kr/",
+      "area": "Electrical Engineering",
+      "studyType": "M.S.",
+      "startDate": "2015-03-01",
+      "endDate": "2017-02-01",
+      "score": "",
+      "courses": [],
+      "summary": "Developed Smart Glass-based assistive devices for the National Research Institute's Imaging Technology Projects, earning financial support and a tuition waiver."
+    },
+    {
+      "institution": "Chung-Ang University",
+      "location": "Seoul, South Korea",
+      "url": "https://www.cau.ac.kr/",
+      "area": "Digital Imaging",
+      "studyType": "B.E.",
+      "startDate": "2011-03-01",
+      "endDate": "2015-02-01",
+      "score": "",
+      "courses": [],
+      "summary": "Selected for the Undergraduate Research Internship and authored a paper on satellite image denoising."
+    }
+  ],
+  "publications": [
+    {
+      "name": "Melanoma Detection with Uncertainty Quantification",
+      "publisher": "2025 IEEE International Symposium on Biomedical Imaging (ISBI 2025)",
+      "releaseDate": "2025-04-15",
+      "url": "https://arxiv.org/abs/2411.10322",
+      "summary": "Introduced a novel pipeline for melanoma detection, reducing misdiagnoses by 40.5% with uncertainty quantification."
+    },
+    {
+      "name": "Boostlet.js: Medical Image Processing Plugins for the Web via JavaScript Injection",
+      "publisher": "2025 IEEE International Symposium on Biomedical Imaging (ISBI 2025)",
+      "releaseDate": "2025-04-14",
+      "url": "",
+      "summary": "Co-author of a framework enabling medical image processing on web platforms using JavaScript injection."
+    },
+    {
+      "name": "Web-based Melanoma Detection",
+      "publisher": "arXiv preprint",
+      "releaseDate": "2024-03-01",
+      "url": "https://arxiv.org/abs/2403.14898",
+      "summary": "Proposed a web-based solution integrating machine learning pipelines for melanoma detection."
+    },
+    {
+      "name": "3D Face Modeling Using Face Image",
+      "publisher": "Journal of International Society for Simulation Surgery",
+      "releaseDate": "2015-06-01",
+      "url": "https://koreascience.kr/article/JAKO201519264065737.page",
+      "summary": "Explored techniques for constructing 3D face models from single facial images."
+    },
+    {
+      "name": "Pattern Noise Removal Method Using Wavelet-FFT",
+      "publisher": "Summer Annual Conference",
+      "releaseDate": "2012-06-01",
+      "url": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE02275340",
+      "summary": "Presented a pattern noise removal approach combining wavelet and FFT methodologies."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Machine Learning",
+      "level": "Expert",
+      "icon": "fa-solid fa-brain",
+      "keywords": ["Uncertainty Quantification", "Medical Imaging", "2D/3D Detection Pipelines"]
+    },
+    {
+      "name": "Systems Programming",
+      "level": "Expert",
+      "icon": "fa-solid fa-code",
+      "keywords": ["Graphics Kernel Development", "Database Systems", "Smart Factory Solutions"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Korean",
+      "fluency": "Native speaker",
+      "icon": ""
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent",
+      "icon": ""
+    }
+  ],
+  "references": [
+    {
+      "name": "Daniel Haehn",
+      "icon": "fa-solid fa-laptop",
+      "reference": "Assistant Professor at the University of Massachusetts Boston *Research Advisor"
+    },
+    {
+      "name": "Brian Matejek",
+      "icon": "fa-solid fa-thumbtack",
+      "reference": "Senior Computer Scientist at SRI International. *Internship Supervisor"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Healthcare AI",
+      "icon": "fa-solid fa-heartbeat",
+      "keywords": ["Medical Imaging", "Reliable Diagnostics", "Healthcare Applications"]
+    },
+    {
+      "name": "Systems Optimization",
+      "icon": "fa-solid fa-cogs",
+      "keywords": ["Kernel Engineering", "Cross-Platform Compatibility", "Efficient Pipelines"]
+    }
+  ]
+}
