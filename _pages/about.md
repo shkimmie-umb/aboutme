@@ -15,7 +15,7 @@ profile:
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
-[[google scholar]](https://scholar.google.com/citations?user=a-Jr59UAAAAJ&hl=en) [[github]](https://github.com/shkimmie-umb?tab=repositories) [[linkedin]](https://www.linkedin.com/in/sang-hyuk-kim-469687182/) [[sanghyuk.kim001@umb.edu]](mailto:sanghyuk.kim001@umb.edu)
+[[google scholar]](https://scholar.google.com/citations?user=a-Jr59UAAAAJ&hl=en) [[github]](https://github.com/shkimmie-umb?tab=repositories) [[sanghyuk.kim001@umb.edu]](mailto:sanghyuk.kim001@umb.edu)
 
 Hello. I am Sanghyuk Kim, a Ph.D. student in Computer Science at the University of Massachusetts Boston, working under the guidance of Prof. [Daniel Haehn](https://danielhaehn.com/) in the Machine Psychology Lab. My research bridges medical imaging and systems programming to drive innovative advancements in healthcare diagnostics.
 
