@@ -21,14 +21,9 @@ group :jekyll_plugins do
     gem 'mini_racer'
     gem 'unicode_utils'
     gem 'webrick'
-    gem "jekyll-gist"
-    gem 'jekyll-paginate'
-    gem 'jekyll-redirect-from'
 end
 group :other_plugins do
     gem 'css_parser'
     gem 'feedjira'
     gem 'httparty'
 end
-
-gem "faraday-retry", "~> 2.3"
