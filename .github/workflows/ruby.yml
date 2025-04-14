@@ -3,32 +3,32 @@ name: Build Jekyll site
 on:
   push:
     branches:
-      - main  # Trigger on push to the main branch
+      - main # Trigger on push to the main branch
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-    - name: Set up Ruby 3.2
-      uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: '3.2'
+      - name: Set up Ruby 3.2
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.2"
 
-    - name: Install dependencies
-      run: |
-        gem install bundler
-        bundle install
+      - name: Install dependencies
+        run: |
+          gem install bundler
+          bundle install
 
-    - name: Build the site
-      run: |
-        bundle exec jekyll build
+      - name: Build the site
+        run: |
+          bundle exec jekyll build
 
-    - name: Upload site artifacts
-      uses: actions/upload-artifact@v2
-      with:
-        name: site
-        path: _site/
+      - name: Upload site artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: site
+          path: _site/
