@@ -1,25 +1,23 @@
 /*
-* Greedy Navigation
-*
-* http://codepen.io/lukejacksonn/pen/PwmwWV
-*
-*/
+ * Greedy Navigation
+ *
+ * http://codepen.io/lukejacksonn/pen/PwmwWV
+ *
+ */
 
-var $nav = $('#site-nav');
-var $btn = $('#site-nav button');
-var $vlinks = $('#site-nav .visible-links');
+var $nav = $("#site-nav");
+var $btn = $("#site-nav button");
+var $vlinks = $("#site-nav .visible-links");
 var $vlinks_persist_tail = $vlinks.children("*.persist.tail");
-var $hlinks = $('#site-nav .hidden-links');
+var $hlinks = $("#site-nav .hidden-links");
 
 var breaks = [];
 
 function updateNav() {
-
-  var availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
+  var availableSpace = $btn.hasClass("hidden") ? $nav.width() : $nav.width() - $btn.width() - 30;
 
   // The visible list is overflowing the nav
   if ($vlinks.width() > availableSpace) {
-
     while ($vlinks.width() > availableSpace && $vlinks.children("*:not(.persist)").length > 0) {
       // Record the width of the list
       breaks.push($vlinks.width());
@@ -35,7 +33,6 @@ function updateNav() {
 
     // The visible list is not overflowing
   } else {
-
     // There is space for another item in the nav
     while (breaks.length > 0 && availableSpace > breaks[breaks.length - 1]) {
       // Move the item to the visible list
@@ -49,9 +46,9 @@ function updateNav() {
 
     // Hide the dropdown btn if hidden list is empty
     if (breaks.length < 1) {
-      $btn.addClass('hidden');
-      $btn.removeClass('close');
-      $hlinks.addClass('hidden');
+      $btn.addClass("hidden");
+      $btn.removeClass("close");
+      $hlinks.addClass("hidden");
     }
   }
 
@@ -59,28 +56,27 @@ function updateNav() {
   $btn.attr("count", breaks.length);
 
   // update masthead height and the body/sidebar top padding
-  var mastheadHeight = $('.masthead').height();
-  $('body').css('padding-top', mastheadHeight + 'px');
+  var mastheadHeight = $(".masthead").height();
+  $("body").css("padding-top", mastheadHeight + "px");
   if ($(".author__urls-wrapper button").is(":visible")) {
     $(".sidebar").css("padding-top", "");
   } else {
     $(".sidebar").css("padding-top", mastheadHeight + "px");
   }
-
 }
 
 // Window listeners
 
-$(window).on('resize', function () {
+$(window).on("resize", function () {
   updateNav();
 });
 screen.orientation.addEventListener("change", function () {
   updateNav();
 });
 
-$btn.on('click', function () {
-  $hlinks.toggleClass('hidden');
-  $(this).toggleClass('close');
+$btn.on("click", function () {
+  $hlinks.toggleClass("hidden");
+  $(this).toggleClass("close");
 });
 
 updateNav();
